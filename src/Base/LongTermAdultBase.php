@@ -10,7 +10,7 @@ abstract class LongTermAdultBase extends BonAlgorithmStruct implements BonAlgori
     public ?string $info = 'LT-23';
     public int $minMeetings = 1;
     public int $maxMeetings = 25;
-    public int $flattenMeeting = 23;
+    public int $flattenMeeting = 22;
     public int $targetFlattenMeeting = 22;
     public float $interceptMean = 20.729503;
     public float $linearMean = 1.241249;
