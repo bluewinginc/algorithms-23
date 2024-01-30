@@ -8,6 +8,7 @@ abstract class BonAlgorithmStruct
     public int $minMeetings = 0;
     public int $maxMeetings = 0;
     public int $flattenMeeting = 0;
+    public int $targetFlattenMeeting = 0;
     public float $interceptMean = 0.0;
     public float $linearMean = 0.0;
     public float $quadraticMean = 0.0;
@@ -30,6 +31,7 @@ abstract class BonAlgorithmStruct
             'minMeetings' => $this->minMeetings,
             'maxMeetings' => $this->maxMeetings,
             'flattenMeeting' => $this->flattenMeeting,
+            'targetFlattenMeeting' => $this->targetFlattenMeeting,
             'interceptMean' => $this->interceptMean,
             'linearMean' => $this->linearMean,
             'quadraticMean' => $this->quadraticMean,

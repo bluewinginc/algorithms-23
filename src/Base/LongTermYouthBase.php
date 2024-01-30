@@ -11,6 +11,7 @@ abstract class LongTermYouthBase extends BonAlgorithmStruct implements BonAlgori
     public int $minMeetings = 1;
     public int $maxMeetings = 25;
     public int $flattenMeeting = 22;
+    public int $targetFlattenMeeting = 22;
     public float $interceptMean = 21.217437;
     public float $linearMean = 1.540001;
     public float $quadraticMean = -0.109128;
