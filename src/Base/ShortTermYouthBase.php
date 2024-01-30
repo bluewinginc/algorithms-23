@@ -11,7 +11,7 @@ abstract class ShortTermYouthBase extends BonAlgorithmStruct implements BonAlgor
     public int $minMeetings = 1;
     public int $maxMeetings = 12;
     public int $flattenMeeting = 9;
-    public int $targetFlattenMeeting = 6;
+    public int $targetFlattenMeeting = 5;
     public float $interceptMean = 20.311051;
     public float $linearMean = 3.876662;
     public float $quadraticMean = -0.617576;
